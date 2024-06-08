@@ -1,6 +1,6 @@
 Правильная установка моего проекта:
 
-git clone -b main https://github.com/Kompanis/S.T.A.L.K.E.R-2-on-Django
+git clone -b main 
 
 Для создания нового виртуального окружения:
 
