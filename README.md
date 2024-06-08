@@ -1,6 +1,6 @@
 Правильная установка моего проекта:
 
-git clone -b main 
+git clone -b master https://github.com/TYGOLKA/Django
 
 Для создания нового виртуального окружения:
 
