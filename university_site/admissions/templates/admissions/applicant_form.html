@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>University admissions</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'admissions/css/styles_app.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Заполните форму</h1>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+</body>
+</html>
