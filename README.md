@@ -7,21 +7,25 @@ git clone -b master https://github.com/TYGOLKA/Django
 python -m venv venv
 venv\Scripts\activate
 
-Это для скачивания нужных библиотек:
+    Это для скачивания  библиотек:
 pip install -r req.txt
 
-Заходим в директорию проекта:
+    Это если появилась ошибка, This behaviour is the source of the following dependency conflicts.: 
+pip install protobuf==3.20.3
+
+    Заходим в директорию проекта:
 cd university_site
 
-Делаем миграции:
+    Делаем миграции:
 python manage.py makemigrations
+
 python manage.py migrate
 
-Создайте пользователя (admin):
+    Создайте пользователя (admin):
 
 python manage.py createsuperuser
 
-Запускаем сайт:
+    Запускаем сайт:
 
 python manage.py runserver
 
